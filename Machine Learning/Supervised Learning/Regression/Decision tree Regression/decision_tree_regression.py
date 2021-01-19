@@ -29,8 +29,5 @@ regressor = DecisionTreeRegressor(random_state = 0)
 regressor.fit(X, y)
 
 # Predicting a new result
-y_pred=regressor.predict([[]])
+y_pred=regressor.predict([[6.5]])
 
-# save the model to disk
-filename = 'model.pkl'
-pickle.dump(regressor, open(filename, 'wb'))

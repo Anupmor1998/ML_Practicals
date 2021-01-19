@@ -41,7 +41,7 @@ plt.ylabel('Salary')
 plt.show()
 
 # Predicting a new result with Linear Regression
-lin_reg.predict([[6]])
+lin_reg.predict([[6.5]])
 
 # Predicting a new result with Polynomial Regression
 lin_reg_2.predict(poly_reg.fit_transform([[6.5]]))
